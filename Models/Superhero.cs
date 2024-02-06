@@ -8,7 +8,7 @@
 
         public string? Image { get; set; }
 
-        public string? Superpower { get; set; }
+        public string? SuperPower { get; set; }
 
         public string? SecretIdentity { get; set; }
     }

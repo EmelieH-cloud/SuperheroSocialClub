@@ -1,11 +1,12 @@
 ﻿using SuperheroSocialClub.Models;
 
-namespace SuperheroSocialClub.Managers
 
+
+
+namespace SuperheroSocialClub.Managers
 {
     public static class SuperheroManager
     {
-
         public static List<Superhero> Superheroes { get; } = new List<Superhero>
     {
         new Superhero { Id = 1, Name = "Superman", SecretIdentity = "Clark Kent", SuperPower = "Flight, Super Strength, Heat Vision" },

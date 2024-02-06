@@ -1,3 +1,5 @@
+using SuperheroSocialClub.Models;
+
 namespace SuperheroSocialClub.Managers
 
 
@@ -7,7 +9,7 @@ namespace SuperheroSocialClub.Managers
     {
         public static List<SuperheroModel> Superheroes { get; } = new List<SuperheroModel>
     {
-        new SuperheroModel { Id = 1, Name = "Superman", SecretIdentity = "Clark Kent", SuperPower = "Flight, Super Strength, Heat Vision" },
+        new SuperheroModel { Id = 1, Name = "Superman", SecretIdentity = "Clark Kent", SuperPower = "Flight, Super Strength, Heat Vision", Image="superman.jpg" },
         new SuperheroModel { Id = 2, Name = "Batman", SecretIdentity = "Bruce Wayne", SuperPower = "Intelligence, Wealth, Martial Arts" },
         new SuperheroModel { Id = 3, Name = "Wonder Woman", SecretIdentity = "Diana Prince", SuperPower = "Super Strength, Lasso of Truth" },
         new SuperheroModel { Id = 4, Name = "Spider-Man", SecretIdentity = "Peter Parker", SuperPower = "Wall-Crawling, Spider-Sense, Web Shooting" },

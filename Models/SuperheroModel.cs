@@ -1,6 +1,6 @@
 ﻿namespace SuperheroSocialClub.Models
 {
-    public class Superhero
+    public class SuperheroModel
     {
         public int Id { get; set; }
 

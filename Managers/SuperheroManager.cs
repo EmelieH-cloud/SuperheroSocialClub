@@ -1,4 +1,7 @@
-﻿namespace SuperheroSocialClub.Managers
+namespace SuperheroSocialClub.Managers
+
+
+
 {
     public static class SuperheroManager
     {

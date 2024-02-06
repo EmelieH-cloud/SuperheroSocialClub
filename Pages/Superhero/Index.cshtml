@@ -2,3 +2,14 @@
 @model SuperheroSocialClub.Pages.Superhero.IndexModel
 @{
 }
+
+@foreach (var superhero in Model.Superheroes)
+{
+    <div class="border border-primary">
+    <h1>@superhero.Name</h1>
+    <p>Superpower: @superhero.SuperPower</p>
+    <p>Secret identity: @superhero.SecretIdentity</p>
+    <img src="~/images/@superhero.Image" />
+    <a asp-page="/Superhero/Update" asp-route-id="@superhero.Id">Update superhero</a>
+    </div>
+}

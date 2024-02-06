@@ -1,5 +1,8 @@
-﻿namespace SuperheroSocialClub.Models
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace SuperheroSocialClub.Models
 {
+    [BindProperties]
     public class SuperheroModel
     {
         public int Id { get; set; }

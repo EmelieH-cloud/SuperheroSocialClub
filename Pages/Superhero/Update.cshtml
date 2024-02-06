@@ -1,0 +1,19 @@
+﻿@page
+@model SuperheroSocialClub.Pages.Superhero.UpdateModel
+@{
+}
+
+@if (Model.Superhero !=null)
+{
+    <div>
+    <form method="post">
+    <h1>Update @Model.Superhero.Name</h1>
+            <input type="text" placeholder="Name" asp-for="@Model.Superhero.Name" />
+            <input type="text" placeholder="Superpower" asp-for="@Model.Superhero.SuperPower" />
+            <input type="text" placeholder="Secret identity" asp-for="@Model.Superhero.SecretIdentity" />
+    <input type="submit" class="btn btn-primary" />
+        </form>
+    </div>
+
+}
+
